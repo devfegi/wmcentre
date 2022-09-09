@@ -1,0 +1,910 @@
+@media (max-width: 1182px) {
+  .container {
+    max-width: 970px;
+  }
+
+  .header-body-search__input {
+    width: 300px;
+  }
+
+  .products-items {
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .sort-content.grid-view {
+    -ms-grid-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .products-inner-items {
+    -ms-grid-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .discounts {
+    -ms-grid-columns: 1fr 380px 290px;
+    grid-template-columns: 1fr 380px 290px;
+  }
+
+  .buynow-body {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .buynow__button_1 {
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 991.98px) {
+
+  .games-grid-keyboard__item:hover,
+  .showall-bookmarks__link:hover,
+  .header-top-bookmarks__desc:hover,
+  .popup-form__title:hover,
+  .select .select-options__value:hover,
+  .products__title:hover,
+  .footer__link:hover,
+  .rules-anchor__link:hover {
+    color: var(--secondary-hover);
+  }
+
+  .buynow__button_2:hover,
+  .header-body-search__button:hover {
+    background-color: var(--primary-hover);
+  }
+
+  .header-body-sell__link:hover:after,
+  .showmore__link:hover,
+  .popup-form-button__link:hover,
+  .header-body-basket:hover:after,
+  .contact-info-sellers__button:hover,
+  .seller__button:hover,
+  .buynow__button_1:hover,
+  .rules-footer-accept__link:hover,
+  .feedback__button:hover,
+  .header-body-sell__link:hover {
+    background-color: var(--secondary-hover);
+  }
+
+  .catalog__title:hover {
+    color: var(--primary-hover);
+  }
+
+  .products-nav__item:hover,
+  .products-nav__item.active:hover {
+    color: #000;
+  }
+
+  .header-top-menu__link:hover,
+  .header-top-purchases__link:hover,
+  .header-top-bookmarks__link:hover,
+  .error404__link:hover,
+  .games-rightside__link:hover,
+  .header-top-bookmarks__popup:hover,
+  .popup-form-edit__link:hover,
+  .sellers-infowm__link:hover,
+  .contact-info-sellers__link:hover,
+  .contact-info-seller__link:hover,
+  .addinfo__link:hover,
+  .desc__link:hover,
+  .seller-item:first-child .seller__value:hover,
+  .seller__link:hover,
+  .buynow__rules:hover,
+  .games-inner__link:hover,
+  .rules-footer__link:hover,
+  .feedback-email__link:hover,
+  .rules__link:hover,
+  .games-list__link:hover {
+    text-decoration: underline;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .container {
+    max-width: 750px;
+  }
+
+  .header-body-search__input {
+    width: 270px;
+  }
+
+  .header-body-basket__title,
+  .header-body-basket__desc {
+    display: none;
+  }
+
+  .header-body-basket:after {
+    top: -18px;
+    left: 10px;
+  }
+
+  .header-top-row {
+    height: 65px;
+  }
+
+  .header-burger {
+    display: block;
+  }
+
+  .header-top-box {
+    margin-left: auto;
+  }
+
+  .header-top-menu {
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: #F6F6F6;
+    z-index: 2;
+    -webkit-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+  }
+
+  .header-top-menu li:last-child .header-top-menu__link {
+    display: block;
+  }
+
+  .header-top-bookmarks__link {
+    font-size: 24px;
+  }
+
+  .header-body-search__button {
+    color: #000;
+  }
+
+  .header-body-sell__link {
+    width: auto;
+    background-color: var(--secondary);
+  }
+
+  .header-body-sell__link:after,
+  .header-top-purchases__link {
+    display: none;
+  }
+
+  .header-top-box .header-top-bookmarks__link {
+    display: none;
+  }
+
+  .header-top-menu li:nth-child(4),
+  .header-top-menu li:nth-child(5) {
+    display: block;
+  }
+
+  .header-top-row.active .header-top-menu {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    visibility: visible;
+  }
+
+  .header-top-menu__link {
+    display: inline-block;
+    margin: 0 0 30px 0;
+    font-size: 24px;
+    text-transform: uppercase;
+  }
+
+  .header-top-currency.active .header-top-currency-list {
+    top: 42px;
+  }
+
+  .header-body {
+    background-color: var(--primary);
+  }
+
+  .header-body-row {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    margin-top: 0;
+    padding: 15px 0;
+  }
+
+  .header-body-logo {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    z-index: 3;
+  }
+
+  .header-body-search__button {
+    background-color: var(--secondary);
+  }
+
+  .header-body-sell {
+    margin-left: 10px;
+  }
+
+  .header-body-sell__link {
+    padding: 0;
+  }
+
+  .header-body-sell__link img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .header-body-sell__link_1 {
+    display: none;
+  }
+
+  .header-body-sell__link_2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .header-body-sell {
+    margin-left: 10px;
+    width: 33px;
+    height: 35px;
+  }
+
+  .header-body-basket:after {
+    background-position: 5px;
+    border-radius: 5px;
+    height: 35px;
+  }
+
+  .main-grid {
+    -ms-grid-columns: 1fr 30px 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0 30px;
+  }
+
+  .side-left {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+
+  .catalog {
+    overflow: auto;
+  }
+
+  .side-left.active .catalog-menu {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    visibility: visible;
+    left: 0;
+  }
+
+  .catalog-menu {
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    z-index: 3;
+    width: 220px;
+    -webkit-transition: all 0.6s ease 0s;
+    transition: all 0.6s ease 0s;
+  }
+
+  .catalog-heading {
+    padding: 15px 20px;
+    border-radius: 0;
+  }
+
+  .catalog-heading:after {
+    content: '';
+    position: absolute;
+    top: 16px;
+    right: 22px;
+    background-image: url(../img/icons/close.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+  }
+
+  .catalog-list-icon {
+    position: absolute;
+    top: 80px;
+    width: 33px;
+    height: 35px;
+    background-color: var(--secondary);
+    border-radius: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .catalog-list-icon img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .catalog-mob {
+    display: block;
+  }
+
+  .catalog-accounts,
+  .catalog-inner .catalog,
+  .catalog-inner .catalog-heading {
+    display: none;
+  }
+
+  .breadcrumbs {
+    margin-left: 0;
+  }
+
+  .game-accounts {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  .games-item {
+    width: 100%;
+  }
+
+  .buynow-content {
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .games-list-grid {
+    -ms-grid-columns: (1fr)[3];
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .discounts {
+    -ms-grid-columns: 1fr 240px 260px;
+    grid-template-columns: 1fr 240px 260px;
+  }
+
+  .discounts__value {
+    font-size: 14px;
+  }
+
+  .discounts__size {
+    padding: 10px 30px;
+  }
+
+  .sellers {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  .sellers-sideright {
+    display: none;
+  }
+
+  .popup-basket .popup-content {
+    top: 130px;
+  }
+
+  .popup-bookmarks .popup-content {
+    top: 50%;
+  }
+
+  .games-grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  .games-rightside__items {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .games-rightside__item {
+    margin-bottom: 0;
+  }
+
+  .games-grid-boxes {
+    max-width: 100%;
+  }
+
+  .footer-right {
+    -ms-grid-columns: (1fr)[3];
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 767.98px) {
+  .container {
+    max-width: none;
+    padding: 0 10px;
+  }
+
+  .main-grid {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+  }
+
+  .desc-content {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-column-align: center;
+    justify-items: center;
+  }
+
+  .desc-slider {
+    width: 485px;
+  }
+
+  .desc-slider-item img {
+    height: 275px;
+  }
+
+  .products-inner-items {
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-column-align: center;
+    justify-items: center;
+  }
+
+  .products-items {
+    -ms-grid-column-align: center;
+    justify-items: center;
+  }
+
+  .products__title {
+    width: 210px;
+  }
+
+  .discounts {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    padding: 70px 20px 20px 20px;
+    text-align: center;
+    height: auto;
+  }
+
+  .discounts:after {
+    border-top: 40px solid #ffdf09;
+    border-left: 40px solid transparent;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+
+  .discounts:before {
+    left: 50%;
+    top: 20px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+
+  .discounts__size {
+    padding: 10px 20px;
+    max-width: 310px;
+    margin: auto;
+  }
+
+  .sellers-info {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  .games-grid__box .select .select-title {
+    width: 390px;
+  }
+
+  .buynow-seller-blocked {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  .error404 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .error404__text {
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .sort-content.grid-view {
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .header-body-logo__img_1 {
+    display: none;
+  }
+
+  .header-body-logo__img_2 {
+    display: block;
+  }
+
+  .header-body-search.active .header-body-search-form {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    visibility: visible;
+    top: 64px;
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+  }
+
+  .header-body-search-form {
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    visibility: hidden;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    width: 100%;
+    padding: 20px 10px;
+    background-color: var(--primary);
+    -webkit-transition: all 0.8s ease;
+    transition: all 0.8s ease;
+    z-index: 5;
+  }
+
+  .header-body-search-icon {
+    display: block;
+    border-radius: 5px;
+    width: 33px;
+    height: 35px;
+    cursor: pointer;
+    background-image: url(../img/icons/search.png);
+    background-position: center;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-color: var(--secondary);
+  }
+
+  .header-body-search__input {
+    width: 100%;
+  }
+
+  .rules-parent ol ol {
+    padding-left: 0;
+  }
+
+  .rules-parent ol ol ul {
+    padding-left: 0;
+  }
+
+  .rules-footer-items {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    -ms-grid-row-align: flex-start;
+    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .rules-footer-item:first-child {
+    margin-bottom: 20px;
+  }
+
+  .sort-row {
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    -ms-grid-row-align: flex-end;
+    align-items: flex-end;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .sort__desc {
+    width: 100%;
+    margin: 0 0 15px 0;
+  }
+
+  .sort-switch {
+    display: none;
+  }
+
+  .sort-img {
+    width: 200px;
+  }
+
+  .sort-content {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 20px 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px 20px;
+  }
+
+  .sort-item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+
+  .sort-info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .sort-info-right {
+    margin-top: 10px;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+  }
+
+  .buynow-content {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  .buynow-item:first-child {
+    border-right: none;
+  }
+
+  .desc-slider {
+    width: 400px;
+  }
+
+  .desc-slider-item img {
+    height: 225px;
+  }
+
+  .games-list-grid {
+    -ms-grid-columns: (1fr)[2];
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .games-inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .games-inner-right {
+    margin: 20px 0 0 0;
+  }
+
+  .discounts {
+    padding: 70px 10px 10px 10px;
+  }
+
+  .discounts__size {
+    padding: 10px;
+  }
+
+  .contact-info-sellers {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .contact-info-sellers-right {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    -ms-grid-row-align: flex-start;
+    align-items: flex-start;
+  }
+
+  .popup-basket .popup-content {
+    position: initial;
+    max-width: 100%;
+  }
+
+  .popup-table>.cell {
+    vertical-align: middle;
+    padding: 30px 10px;
+  }
+
+  .popup-form-body {
+    margin-top: 0;
+    padding: 45px 15px 15px 15px;
+  }
+
+  .games-rightside__items {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  .games-grid-boxes {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .games-grid__box {
+    margin-top: 15px;
+  }
+
+  .footer-right {
+    -ms-grid-columns: (1fr)[2];
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480.98px) {
+  .header-body-logo {
+    left: 40%;
+  }
+
+  .products-nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .products-nav__item {
+    width: 100%;
+    margin: 0 0 10px 0;
+    text-align: center;
+  }
+
+  .products-items {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-column-align: inherit;
+    justify-items: inherit;
+  }
+
+  .products__img {
+    width: 100%;
+  }
+
+  .products__title {
+    width: 100%;
+  }
+
+  .products__img img {
+    -o-object-fit: contain;
+    object-fit: contain;
+  }
+
+  .products-inner-items {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-column-align: inherit;
+    justify-items: inherit;
+  }
+
+  .rules {
+    padding: 30px 15px;
+  }
+
+  .pagination {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .pagination__link {
+    margin: 10px;
+  }
+
+  .sort-content {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  .sort-img {
+    width: 100%;
+    height: 200px;
+    margin: 0;
+  }
+
+  .sort-img img {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .desc-slider {
+    width: 300px;
+  }
+
+  .desc-slider-item img {
+    height: 170px;
+  }
+
+  .games-grid__box .select .select-title {
+    width: 300px;
+  }
+
+  .footer-content {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-column-align: center;
+    justify-items: center;
+    grid-gap: 40px;
+  }
+
+  .footer-right {
+    -ms-grid-columns: 1fr 30px 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px 30px;
+  }
+
+  .footer-item {
+    text-align: left;
+  }
+}
+
+@media (max-width: 375.98px) {
+  .title {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    -ms-grid-row-align: flex-start;
+    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .title span {
+    margin: 10px 0 0 0;
+  }
+
+  .rules-footer__text i {
+    font-size: 13px;
+  }
+
+  .buynow-seller-blocked__box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .buynow-seller-blocked__desc {
+    padding-left: 0;
+    margin-top: 20px;
+    text-align: center;
+  }
+}
